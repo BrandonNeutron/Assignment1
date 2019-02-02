@@ -1,0 +1,21 @@
+a) 
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (16/16), 1.56 KiB | 177.00 KiB/s, done.
+Total 16 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 1 local object.
+To github.com:BrandonNeutron/Assignment1.git
+   74d7a37..02139e8  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+b) 9 so far, I used the command "git rev-list --count master"
+
+c) Thursday, Jan. 31 16:10:40 2019, I used the command "git log .gitignore"
+
+d) 1.) Two users can work on a project at the same time
+   2.) One can easily test new changes and ideas without the risk of having to
+   go back and undo all of them if the idea doesn't work out
+
+e) 
