@@ -43,4 +43,9 @@ which works well in a small team. However, when you get to a larger number of
 developers working on one project, that can quickly get out of hand, as merges
 and conflict resolution can take forever to work out. So, in the dictator/
 liutenants system, it works a lot better, as that is broken down into several
-smaller tasks, and the system is a lot smoother. 
+smaller tasks, and the system is a lot smoother.
+
+5) Polymorphism is used, in a way, as the WeaponFactory can be accessed from any subclass of
+Weapon, which shows that WeaponFactory is generic, somewhat. Encapsulation is also used, as 
+all of the necessary functions for creating a new weapon are implemented in WeaponFactory, so
+it's like a closed system. 
