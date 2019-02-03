@@ -1,0 +1,10 @@
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (16/16), 1.56 KiB | 177.00 KiB/s, done.
+Total 16 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 1 local object.
+To github.com:BrandonNeutron/Assignment1.git
+   74d7a37..02139e8  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.

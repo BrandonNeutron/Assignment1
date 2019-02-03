@@ -29,16 +29,35 @@ void simulateWeapon(Weapon * weapon, double armor) {
  */
 int main(int argc, char** argv) {
 
-    double armor = 29;
+	double armor = 29;
+	double betterArmor = 59;
+	double evenBetterArmor = 61;
 
-    Weapon *weapon = WeaponFactory::getInstance()->getWeapon("sword");
-    simulateWeapon(weapon, armor);
-    delete(weapon);
+	Weapon *weapon = WeaponFactory::getInstance()->getWeapon("sword");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
 
-    weapon = WeaponFactory::getInstance()->getWeapon("spear");
-    simulateWeapon(weapon, armor);
-    delete(weapon);
+	weapon = WeaponFactory::getInstance()->getWeapon("spear");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
 
-    return 0;
+	weapon = WeaponFactory::getInstance()->getWeapon("crazy random sword");
+	simulateWeapon(weapon, armor);
+	simulateWeapon(weapon, betterArmor);
+	simulateWeapon(weapon, evenBetterArmor);
+	delete(weapon);
+
+	weapon = WeaponFactory::getInstance()->getWeapon("simple hammer");
+	simulateWeapon(weapon, armor);
+	simulateWeapon(weapon, betterArmor);
+	simulateWeapon(weapon, evenBetterArmor);
+	delete(weapon);
+
+	weapon = WeaponFactory::getInstance()->getWeapon("kool hammer");
+	simulateWeapon(weapon, armor);
+	simulateWeapon(weapon, betterArmor);
+	simulateWeapon(weapon, evenBetterArmor);
+	delete(weapon);
+	return 0;
 }
 

@@ -18,4 +18,29 @@ d) 1.) Two users can work on a project at the same time
    2.) One can easily test new changes and ideas without the risk of having to
    go back and undo all of them if the idea doesn't work out
 
-e) 
+e) git status returns simply what files have been edited and not committed, as
+well as what files aren't being tracked, wheras git log returns the commit 
+history of the repository, along with specifics like the commit message
+
+f) git log Weapon.h
+
+g) git log --grep=file
+
+h) I) Inheritance is where one class takes (or inherits) all of the variables
+and functions of a "parent" class. 
+   II) Polymorphism is the concept that differently typed objects can be 
+   accessed through the same interface, like template functions in C++
+   III) Encapsulation is simply the process of bundling (or encapsulating) data
+   and functions within one unit, like a class in Java
+
+i) The integration manager has one repository tasked with handling all conflict
+resolution, whereas the dictator/liutenants system breaks it down into smaller
+tasks, where a few devs merge into one, and then those repos merge into the
+dictator one
+
+j) In the centralized workflow, everyone pushes and pulls from one repository,
+which works well in a small team. However, when you get to a larger number of 
+developers working on one project, that can quickly get out of hand, as merges
+and conflict resolution can take forever to work out. So, in the dictator/
+liutenants system, it works a lot better, as that is broken down into several
+smaller tasks, and the system is a lot smoother. 

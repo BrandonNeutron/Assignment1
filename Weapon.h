@@ -33,10 +33,12 @@ public:
      */
     Weapon(std::string name, double hitPoints)
             : name(name),
-              hitPoints(hitPoints) {} //This is equivalent to this.name = name and this.hitpoints = hitpoitns;
+              hitPoints(hitPoints) {} 
+    
+    /This is equivalent to this.name = name and this.hitpoints = hitpoitns;
 
     /**
-     * Detructor
+     * Destructor
      */
     virtual ~Weapon() {};
 
