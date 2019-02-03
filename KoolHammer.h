@@ -20,6 +20,6 @@ class KoolHammer : public Weapon {
 		KoolHammer() : Weapon("Kool hammer", 50.0){};
 		virtual ~KoolHammer(){};
 		virtual double hit(double armor);
-}
+};
 
 #endif
